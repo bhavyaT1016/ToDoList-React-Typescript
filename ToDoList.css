@@ -1,0 +1,91 @@
+.todo-app {
+    display: inline-block;
+    max-width: 60%;
+    width: 60%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+}
+
+/* Dark Mode handlers */
+
+/* Allign the dark mode button to the end of the container */
+.dark-mode-button-handler-container {
+    text-align: end;
+}
+
+/* Dark mode color handler */
+.todo-app.dark-theme {
+    background-color: #000000;
+    color: #fff;
+}
+
+
+/* To Do list container */
+.todo-app label {
+    margin-right: 10px;
+}
+
+/* Input styles */
+.todo-app input[type="text"] {
+    width: 70%;
+    padding: 8px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.todo-app button {
+    padding: 8px 12px;
+    background-color: #0d5f00;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.todo-app li button {
+    padding: 4px 8px;
+    margin-left: 5px;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.largerCheckbox {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+/* to do display styles */
+
+.todo-container {
+    padding: 1em;
+    border: 1px solid;
+}
+
+.todo-app ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.todo-app li {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.todo-app li span {
+    flex-grow: 1;
+}
+
+.todo-container .completed {
+    text-decoration: line-through;
+}
+
+
